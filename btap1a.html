@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        caption {
+            background-color: orange;
+            color: white;
+        }
+
+        .trai {
+            color: blue;
+            float: right;
+        }
+
+        .phai {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Sở thích đơn giản</caption>
+        <tr>
+            <td class="trai">Họ và tên</td>
+            <td><input type="text" size="25"></td>
+        </tr>
+        <tr>
+            <td class="trai">Email</td>
+            <td><input type="text" size="20"></td>
+        </tr>
+        <tr>
+            <td class="trai">Sở thích</td>
+            <td>
+                <table>
+                    <tr>
+                        <td class="phai"><input type="checkbox">Thể thao</td>
+                        <td class="phai"><input type="checkbox">Âm nhạc</td>
+                        <td class="phai"><input type="checkbox">Đọc sách</td>
+                    </tr>
+                    <tr>
+                        <td class="phai"><input type="checkbox">Lướt web</td>
+                        <td class="phai"><input type="checkbox">Chơi game</td>
+                        <td class="phai"><input type="checkbox">Điện ảnh</td>
+                    </tr>
+                    <tr>
+                        <td class="phai"><input type="checkbox" class="phai">Du lịch</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="reset" value="Nhập lại">
+                <input type="submit" value="Gửi thông tin">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
